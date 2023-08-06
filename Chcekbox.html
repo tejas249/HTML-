@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form action="/server">
+    <input type="checkbox" id = "age" name ="age">
+    <label for = "age">I am 18+</label>
+
+    <div>
+        <input type="radio" name="Fruit" id="apple" value="apple">
+        <label for="apple"> apple </label>
+
+        <input type="radio" name="Fruit" id="mango" value="mango">
+        <label for="mango"> mango </label>
+
+        <input type="radio" name="Fruit" id="banana" value="banana">
+        <label for="banana"> banana </label>
+
+    </div>
+    <br>
+
+    <div>
+      Choose your subject
+      <input type="checkbox" id = "Maths" name ="Subject">
+      <label for = "Maths">Maths</label>
+
+      <input type="checkbox" id = "Science" name ="Subject">
+      <label for = "Science"> Science</label>
+   
+      <input type="checkbox" id = "History" name ="Subject">
+      <label for = "History">History</label>
+    </div>
+
+    <div>
+    Chooseyour professions
+    <select name="profession" id="profession">
+       <option>Select your option </option>
+       <option value -="stu"  selected>Student</option>
+       <option value -="dev">Developer</option>
+       <option value -="Test">Tester</option>
+    </select>
+    </div>
+
+    <label for ="vol">Select your volume </label>
+    <input type ="range" id ="vol" min="0" max="100" name="vol" step="10" value="70">
+
+    
+    <div>
+        <label for="feedback">Please Give your valuabble feedback</label>
+         <textarea id="feedback"name="feedback" rows="50" cols="100"></textarea>
+    </div>
+    <button>Submit</button>
+
+   </form>  
+</body>
+</html>
